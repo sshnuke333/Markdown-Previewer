@@ -9,7 +9,7 @@ export default function App() {
     const [width, setWidth] = useState(`${window.innerWidth}px`);
     const [height, setHeight] = useState(`${window.innerHeight}px`);
     const resize = () => {
-        if (width > 800) {
+        if (width > 768) {
             const newWindowWidth = Math.floor(width / 2);
             const newWindowHeight = Math.floor(height * 0.95);
             setWidth(`${newWindowWidth}px`);

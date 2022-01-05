@@ -39,10 +39,9 @@ img {
 #root {
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
     flex-wrap: nowrap;
     
-    @media(max-width: 800px) {
+    @media(max-width: 768px) {
         flex-direction: column;
     }
 }
